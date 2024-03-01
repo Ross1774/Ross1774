@@ -1,0 +1,1474 @@
+<server-configuration name="Web 3">
+   <service configure="HEART_RATE"/>
+   <service uuid="00001823-0000-1000-8000-00805f9b34fb">
+      <characteristic uuid="00002a3e-0000-1000-8000-00805f9b34fb">
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+      </characteristic>
+   </service>
+   <service uuid="00001828-0000-1000-8000-00805f9b34fb">
+      <characteristic uuid="af0badb1-5b99-43cd-917a-a77bc549e3cc" value="FF">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <descriptor uuid="00002903-0000-1000-8000-00805f9b34fb" value="12">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002909-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002903-0000-1000-8000-00805f9b34fb" value-string="AB">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb" value="12">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002906-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="0000290f-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002905-0000-1000-8000-00805f9b34fb" value="13">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002904-0000-1000-8000-00805f9b34fb" value="13">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002906-0000-1000-8000-00805f9b34fb" value="12">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+      <characteristic uuid="00002b78-0000-1000-8000-00805f9b34fb" value="13">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <descriptor uuid="00002909-0000-1000-8000-00805f9b34fb">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="0000fe59-0000-1000-8000-00805f9b34fb">
+      <characteristic uuid="a3c8750c-8ed3-4bdf-8a39-a01bebede295" value="12">
+         <descriptor configure="CCCD"/>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb" value="12">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="0000290f-0000-1000-8000-00805f9b34fb" value="12">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002903-0000-1000-8000-00805f9b34fb" value="13">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="0000290f-0000-1000-8000-00805f9b34fb" value="13">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002906-0000-1000-8000-00805f9b34fb" value="02">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002907-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002905-0000-1000-8000-00805f9b34fb" value="13">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="0000290b-0000-1000-8000-00805f9b34fb"/>
+         <descriptor uuid="00002903-0000-1000-8000-00805f9b34fb"/>
+         <descriptor uuid="0000290b-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="0000290e-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="0000290c-0000-1000-8000-00805f9b34fb" value="22">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+      <characteristic uuid="00002a04-0000-1000-8000-00805f9b34fb" value="12">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+      <characteristic uuid="00002ab7-0000-1000-8000-00805f9b34fb" value="12">
+         <descriptor configure="CCCD"/>
+         <descriptor uuid="00002903-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="00002905-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="0000290a-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="0000181d-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="be15beef-6186-407e-8381-0bd89c4d8df4"/>
+   <service uuid="0000181e-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000184f-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000184a-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001816-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001812-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001819-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="ade3d529-c784-4f63-a987-eb69f70ee816"/>
+   <service uuid="0000183b-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001818-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000180a-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001820-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="14387800-130c-49e7-b877-2881c89cb258"/>
+   <service uuid="00001827-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae" uuid="00001822-0000-1000-8000-00805f9b34fb">
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+      </characteristic>
+   </service>
+   <service uuid="ef680100-9b35-4933-9b10-52ffa9740042">
+      <characteristic name="Rozae" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <property name="READ"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+      </characteristic>
+      <characteristic uuid="00002a86-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+      <characteristic uuid="00002aba-0000-1000-8000-00805f9b34fb" value="FF">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="ef680200-9b35-4933-9b10-52ffa9740042">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor name="Rozae" uuid="00001821-0000-1000-8000-00805f9b34fb">
+            <permission name="READ"/>
+         </descriptor>
+         <permission name="READ"/>
+         <property name="READ"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="00001814-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Ross" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <permission name="READ"/>
+         <property name="READ"/>
+      </characteristic>
+   </service>
+   <service uuid="00001803-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Ross Q" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="00001821-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Ross Q" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="0000fd44-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Ross Q" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="00001851-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Ross Q" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor name="Ross Quinones" uuid="00001821-0000-1000-8000-00805f9b34fb">
+            <permission name="READ"/>
+            <permission name="WRITE"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+      <characteristic name="Ross Dawg" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="00001852-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Ross Quinones" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="00001856-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Ross q" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="0000181f-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Ross Q" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+      <characteristic name="Ross Q" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="00001850-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Q" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="955a1523-0fe2-f5aa-a094-84b8d4f3e8ad">
+      <characteristic name="Rozae Q" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="0000184c-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="0000184b-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="b35d7da6-eed4-4d59-8f89-f6573edea967">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="00001820-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="0000180e-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="d0611e78-bbb4-4591-a5f8-487910ae4366">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="89d3502b-0f36-433a-8ef4-c502ad55f8dc">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+      <characteristic uuid="00002abb-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="9fa480e0-4967-4542-9390-d343dc5d04ae">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb" value="FF">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+      <characteristic name="Rozae" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="9fa480e0-4967-4542-9390-d343dc5d04ae">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb" value="0300">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="7905f431-b5ce-4e99-a40f-4b1e122d00d0">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="a6c31337-6c07-453e-961a-d8a8a41bf368">
+      <characteristic name="Rozae Net" uuid="00001821-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <descriptor uuid="00002903-0000-1000-8000-00805f9b34fb">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="57a70000-9350-11ed-a1eb-0242ac120002">
+      <characteristic uuid="00002b2a-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+      <characteristic uuid="00002a9f-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="0000fd44-0000-1000-8000-00805f9b34fb">
+      <characteristic uuid="00002a9f-0000-1000-8000-00805f9b34fb" value="0300FA">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="ee0c2080-8786-40ba-ab96-99b91ac981d8"/>
+   <service uuid="14387800-130c-49e7-b877-2881c89cb258"/>
+   <service uuid="8d53dc1d-1db7-4cd3-868b-8a527460aa84"/>
+   <service uuid="00001855-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="ef680400-9b35-4933-9b10-52ffa9740042"/>
+   <service uuid="0000fe59-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="14387800-130c-49e7-b877-2881c89cb258"/>
+   <service uuid="6e400001-b5a3-f393-e0a9-e50e24dcca9e"/>
+   <service uuid="0000181c-0000-1000-8000-00805f9b34fb">
+      <characteristic uuid="00002adb-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor uuid="00002903-0000-1000-8000-00805f9b34fb">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="14387800-130c-49e7-b877-2881c89cb258">
+      <characteristic uuid="00002add-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="00001828-0000-1000-8000-00805f9b34fb">
+      <characteristic uuid="00002abb-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb" value-string="0XFF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service configure="LINK_LOSS"/>
+   <service uuid="0000181e-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000fd44-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001800-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001849-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001801-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000184c-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000180e-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="9fa480e0-4967-4542-9390-d343dc5d04ae"/>
+   <service uuid="d0611e78-bbb4-4591-a5f8-487910ae4366"/>
+   <service uuid="9fa480e0-4967-4542-9390-d343dc5d04ae"/>
+   <service uuid="0000181e-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000180a-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="e95d93b0-251d-470a-a062-fa1922dfa9a8"/>
+   <service uuid="00001530-1212-efde-1523-785feabcd123"/>
+   <service uuid="0000180a-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000184f-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001852-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001856-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="ef680100-9b35-4933-9b10-52ffa9740042"/>
+   <service uuid="ef680200-9b35-4933-9b10-52ffa9740042"/>
+   <service uuid="00001809-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000180d-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001854-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001815-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001851-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000180f-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000184e-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001843-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="87290102-3c51-43b1-a1a9-11b9dc38478b"/>
+   <service uuid="0000183b-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001827-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001828-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000181e-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001827-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001828-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001849-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001801-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="57a70000-9350-11ed-a1eb-0242ac120002"/>
+   <service uuid="6e400001-b5a3-f393-e0a9-e50e24dcca9e"/>
+   <service uuid="54220000-f6a5-4007-a371-722f4ebd8436"/>
+   <service uuid="00001523-1212-efde-1523-785feabcd123"/>
+   <service uuid="00001823-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001820-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001810-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001625-1212-efde-1623-785feabcd123"/>
+   <service uuid="00001623-1212-efde-1623-785feabcd123"/>
+   <service uuid="00001812-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001825-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="00001829-0000-1000-8000-00805f9b34fb">
+      <characteristic uuid="a3c8750c-8ed3-4bdf-8a39-a01bebede295" value="FF">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <descriptor uuid="00002903-0000-1000-8000-00805f9b34fb" value="12">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="0000290f-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+      <characteristic uuid="955a1524-0fe2-f5aa-a094-84b8d4f3e8ad" value="FF">
+         <descriptor configure="CCCD"/>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb" value="13">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="0000290b-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="0000fe59-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="d0611e78-bbb4-4591-a5f8-487910ae4366">
+      <characteristic name="Rozae Net" uuid="00000007-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <descriptor name="Rozae Net" uuid="00000007-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="89d3502b-0f36-433a-8ef4-c502ad55f8dc">
+      <characteristic name="Rozae Net" uuid="00000007-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor name="Rozae Net" uuid="00000007-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor name="Rozae Net" uuid="00000007-0000-1000-8000-00805f9b34fb" value="AB">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <descriptor uuid="0000290f-0000-1000-8000-00805f9b34fb" value="07">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="9fa480e0-4967-4542-9390-d343dc5d04ae">
+      <characteristic name="Rozae Net" uuid="00000001-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="7905f431-b5ce-4e99-a40f-4b1e122d00d0">
+      <characteristic name="Rozae Net" uuid="00000007-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor name="Rozae Net" uuid="00000007-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="WRITE"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="0000184e-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Net" uuid="00000007-0000-1000-8000-00805f9b34fb" value="FF">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="00001851-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Net" uuid="00000007-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+      <characteristic uuid="ef680406-9b35-4933-9b10-52ffa9740042">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="0000184f-0000-1000-8000-00805f9b34fb">
+      <characteristic uuid="ef680106-9b35-4933-9b10-52ffa9740042" value="AB">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="00001820-0000-1000-8000-00805f9b34fb">
+      <characteristic name="Rozae Net" uuid="00000007-0000-1000-8000-00805f9b34fb" value="16">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <descriptor uuid="0000290b-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+   </service>
+   <service uuid="0000183b-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="0000184c-0000-1000-8000-00805f9b34fb"/>
+   <service uuid="9fa480e0-4967-4542-9390-d343dc5d04ae">
+      <characteristic uuid="a3c87504-8ed3-4bdf-8a39-a01bebede295" value="FF">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <descriptor uuid="0000290c-0000-1000-8000-00805f9b34fb" value="AB">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+      <characteristic uuid="a3c8750c-8ed3-4bdf-8a39-a01bebede295" value="13">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+      <characteristic uuid="00002ac9-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor configure="CEPD"/>
+         <descriptor uuid="00002903-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="READ_ENCRYPTED"/>
+            <permission name="READ_ENCRYPTED_MITM"/>
+            <permission name="WRITE"/>
+            <permission name="WRITE_ENCRYPTED"/>
+            <permission name="WRITE_ENCRYPTED_MITM"/>
+            <permission name="WRITE_SIGNED"/>
+            <permission name="WRITE_SIGNED_MITM"/>
+         </descriptor>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="BROADCAST"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+         <property name="SIGNED_WRITE"/>
+         <property name="RELIABLE_WRITE"/>
+         <property name="WRITE_AUXILIARY"/>
+      </characteristic>
+      <characteristic uuid="00002bb5-0000-1000-8000-00805f9b34fb">
+         <descriptor configure="CCCD"/>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb" value="FF">
+            <permission name="READ"/>
+            <permission name="WRITE"/>
+         </descriptor>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+      <characteristic uuid="00002bad-0000-1000-8000-00805f9b34fb" value="FF">
+         <descriptor configure="CCCD"/>
+         <permission name="READ"/>
+         <permission name="READ_ENCRYPTED"/>
+         <permission name="READ_ENCRYPTED_MITM"/>
+         <permission name="WRITE"/>
+         <permission name="WRITE_ENCRYPTED"/>
+         <permission name="WRITE_ENCRYPTED_MITM"/>
+         <permission name="WRITE_SIGNED"/>
+         <permission name="WRITE_SIGNED_MITM"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="NOTIFY"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="d0611e78-bbb4-4591-a5f8-487910ae4366"/>
+   <service uuid="89d3502b-0f36-433a-8ef4-c502ad55f8dc"/>
+</server-configuration>
