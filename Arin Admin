@@ -1,0 +1,64 @@
+
+
+https://rdap.arin.net/registry/entity/ADMIN2521-ARIN
+
+
+
+"
+  "rdapConformance" : [ "nro_rdap_profile_0", "rdap_level_0" ],
+  "notices" : [ {
+    "title" : "Terms of Service",
+    "description" : [ "By using the ARIN RDAP/Whois service, you are agreeing to the RDAP/Whois Terms of Use" ],
+    "links" : [ {
+      "value" : "https://rdap.arin.net/registry/entity/ADMIN2521-ARIN",
+      "rel" : "terms-of-service",
+      "type" : "text/html",
+      "href" : "https://www.arin.net/resources/registry/whois/tou/"
+    } ]
+  }, {
+    "title" : "Whois Inaccuracy Reporting",
+    "description" : [ "If you see inaccuracies in the results, please visit: " ],
+    "links" : [ {
+      "value" : "https://rdap.arin.net/registry/entity/ADMIN2521-ARIN",
+      "rel" : "inaccuracy-report",
+      "type" : "text/html",
+      "href" : "https://www.arin.net/resources/registry/whois/inaccuracy_reporting/"
+    } ]
+  }, {
+    "title" : "Copyright Notice",
+    "description" : [ "Copyright 1997-2024, American Registry for Internet Numbers, Ltd." ]
+  } ],
+  "handle" : "ADMIN2521-ARIN",
+  "vcardArray" : [ "vcard", [ [ "version", { }, "text", "4.0" ], [ "adr", {
+    "label" : "518 Pinehurst blvd\nSan Antonio\nTX\n78221\nUnited States"
+  }, "text", [ "", "", "", "", "", "", "" ] ], [ "fn", { }, "text", "Admin" ], [ "org", { }, "text", "Admin" ], [ "kind", { }, "text", "group" ], [ "email", { }, "text", "rir@cloudflare.com" ], [ "tel", {
+    "type" : [ "work", "voice" ]
+  }, "text", "+1-210-363-1639" ] ] ],
+  "remarks" : [ {
+    "title" : "Registration Comments",
+    "description" : [ "All Cloudflare abuse reporting can be done via https://www.cloudflare.com/abuse" ]
+  } ],
+  "links" : [ {
+    "value" : "https://rdap.arin.net/registry/entity/ADMIN2521-ARIN",
+    "rel" : "self",
+    "type" : "application/rdap+json",
+    "href" : "https://rdap.arin.net/registry/entity/ADMIN2521-ARIN"
+  }, {
+    "value" : "https://rdap.arin.net/registry/entity/ADMIN2521-ARIN",
+    "rel" : "alternate",
+    "type" : "application/xml",
+    "href" : "https://whois.arin.net/rest/poc/ADMIN2521-ARIN"
+  } ],
+  "events" : [ {
+    "eventAction" : "last changed",
+    "eventDate" : "2023-01-31T08:56:46-05:00"
+  }, {
+    "eventAction" : "registration",
+    "eventDate" : "2011-04-19T16:11:36-04:00"
+  } ],
+  "status" : [ "validated" ],
+  "port43" : "whois.arin.net",
+  "objectClassName" : "entity"
+}"
+ https://rdap.arin.net/registry/entity/ADMIN2521-ARIN#:~:text=%7B%0A%20%20%22rdapConformance%22%20%3A%20%5B%20%22nro_rdap_profile_0%22%2C%20%22rdap_level_0,net%22%2C%0A%20%20%22objectClassName%22%20%3A%20%22entity%22%0A%7D
+
